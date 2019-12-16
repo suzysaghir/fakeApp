@@ -1,0 +1,26 @@
+{
+	"name": "dotindicator",
+	"type": "library",
+	"title": "Dot Indicator",
+	"author": "ali.pinar@smartface.io",
+	"description": "Dot Indicator component. You can use this component in your pages or library components.",
+	"themePath": "themes/dotindicator_style.json",
+	"resources": {
+		"images": [],
+		"fonts": [],
+		"classNames": [
+			".flexLayout",
+			".flexLayout-default",
+			".flexLayout-dotIndicator-main",
+			".flexLayout-dotIndicator-item.inactive",
+			".flexLayout-dotIndicator-item.active"
+		]
+	},
+	"dependencies": [],
+	"imagePaths": [
+		"preview/dotIndicator.png"
+	],
+	"version": "1.0.3",
+	"iconPath": "dot.svg",
+	"readMePath": "README.md"
+}

@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"@smartface/smartface.ui-editor": "6.15.1"
+	},
+	"marketplace-assets": {
+		"lvshopcardview": "1.0.9",
+		"dotindicator": "1.0.3"
+	}
+}

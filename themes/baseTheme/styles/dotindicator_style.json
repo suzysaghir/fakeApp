@@ -1,0 +1,125 @@
+{
+	".flexLayout": {
+		"height": 200,
+		"width": 200,
+		"touchEnabled": true,
+		"visible": true,
+		"backgroundColor": "rgba(255,255,255,0)",
+		"alpha": 1,
+		"borderColor": "rgba(0,0,0,1)",
+		"borderWidth": 0,
+		"flexProps": {
+			"alignSelf": "AUTO",
+			"direction": "INHERIT",
+			"alignContent": "STRETCH",
+			"alignItems": "STRETCH",
+			"justifyContent": "FLEX_START",
+			"flexWrap": "NOWRAP",
+			"flexDirection": "COLUMN",
+			"positionType": "RELATIVE"
+		},
+		"&-small": {
+			"width": 100
+		},
+		"&-medium": {
+			"width": 250
+		},
+		"&-large": {
+			"width": 350
+		},
+		"&-default": {
+			"height": 200,
+			"width": 200
+		},
+		"&-line": {
+			"width": null,
+			"maxHeight": 1,
+			"alpha": 0.5,
+			"flexProps": {
+				"flexGrow": 1
+			},
+			"height": 1,
+			"backgroundColor": "#979797",
+			"marginLeft": 4,
+			"marginRight": 4
+		},
+		"&-margin": {
+			"marginLeft": 20,
+			"marginRight": 20
+		},
+		"&-pgShoppingBagFlContinueButton": {
+			"marginTop": 5,
+			"marginBottom": 20,
+			"height": 42,
+			"width": null,
+			"flexProps": {
+				"flexGrow": 1,
+				"alignItems": "CENTER",
+				"flexDirection": "ROW",
+				"justifyContent": "CENTER"
+			}
+		},
+		"&-warning": {
+			"backgroundColor": "#9F6000"
+		},
+		"&-error": {
+			"backgroundColor": "#D8000C"
+		},
+		"&-success": {
+			"backgroundColor": "#4F8A10"
+		},
+		"&-headerBar": {
+			"backgroundColor": "#45495A"
+		},
+		"&-dotIndicator": {
+			"&-main": {
+				"height": 10,
+				"width": 42,
+				"backgroundColor": "rgba(1,1,1,0)",
+				"flexProps": {
+					"flexDirection": "ROW"
+				}
+			},
+			"&-item": {
+				"width": 10,
+				"height": 10,
+				"borderRadius": 5,
+				"marginLeft": 2,
+				"marginRight": 2,
+				".inactive": {
+					"backgroundColor": "#D8D8D8"
+				},
+				".active": {
+					"backgroundColor": "#1775D0"
+				}
+			}
+		},
+		"&-filled": {
+			"backgroundColor": "#1775D0"
+		},
+		"&-main": {
+			"flexProps": {
+				"flexGrow": 1
+			},
+			"marginLeft": 10,
+			"marginRight": 10
+		}
+	},
+	".flexLayout-default": {
+		"height": 200
+	},
+	".flexLayout-dotIndicator-main": {
+		"height": 10,
+		"width": 42,
+		"backgroundColor": "rgba(1,1,1,0)",
+		"flexProps": {
+			"flexDirection": "ROW"
+		}
+	},
+	".flexLayout-dotIndicator-item.inactive": {
+		"backgroundColor": "#D8D8D8"
+	},
+	".flexLayout-dotIndicator-item.active": {
+		"backgroundColor": "#1775D0"
+	}
+}

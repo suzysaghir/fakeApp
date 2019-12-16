@@ -1,0 +1,56 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "5db7-565f-57cf-e06a",
+			"initialized": true,
+			"props": {
+				"children": [
+					"706f-8749-327e-2456",
+					"d751-9e6c-c273-b448"
+				],
+				"name": "news",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"backgroundColor": "rgba( 250, 247, 241, 1 )"
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "706f-8749-327e-2456",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "5db7-565f-57cf-e06a"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"android": {
+					"color": "rgba( 206, 171, 98, 1 )"
+				},
+				"style": "DEFAULT"
+			}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "d751-9e6c-c273-b448",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "5db7-565f-57cf-e06a",
+				"title": "News"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "News",
+				"titleColor": "rgba( 50, 50, 50, 1 )"
+			}
+		}
+	]
+}

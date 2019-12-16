@@ -1,0 +1,75 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "8062-399c-2552-99dc",
+			"initialized": true,
+			"props": {
+				"children": [
+					"7007-a40a-1af1-0d51",
+					"a0c4-fed0-8493-15c5",
+					"6fd2-6d09-47fe-99a8"
+				],
+				"name": "home",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )"
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "7007-a40a-1af1-0d51",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "8062-399c-2552-99dc"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "a0c4-fed0-8493-15c5",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "8062-399c-2552-99dc",
+				"title": "Home"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Home"
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "6fd2-6d09-47fe-99a8",
+			"props": {
+				"autoHeight": 19.854281378574058,
+				"autoWidth": 90.15255287045338,
+				"children": [],
+				"html": "<font face=\"SFProText-Regular\"><span style=\"white-space: pre-wrap; background-color: rgb(255, 255, 255);\">Home Page</span></font>",
+				"name": "textView1",
+				"parent": "8062-399c-2552-99dc",
+				"text": "Home Page"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoHeight": 19.854281378574058,
+				"autoWidth": 90.15255287045338,
+				"flexProps": {
+					"alignSelf": "CENTER",
+					"flexGrow": 2
+				},
+				"html": "<font face=\"SFProText-Regular\"><span style=\"white-space: pre-wrap; background-color: rgb(255, 255, 255);\">Home Page</span></font>",
+				"text": "Home Page"
+			}
+		}
+	]
+}

@@ -1,0 +1,155 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "b263-ac19-c9a5-71aa",
+			"initialized": true,
+			"props": {
+				"children": [
+					"8e9d-2f54-24a6-ed44",
+					"1661-ccfc-9105-f995",
+					"f344-d769-20b1-7457",
+					"294f-90d8-30a5-4b2d"
+				],
+				"name": "survey",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"backgroundColor": "rgba( 250, 247, 241, 1 )"
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "8e9d-2f54-24a6-ed44",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "b263-ac19-c9a5-71aa"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"android": {
+					"color": "rgba( 206, 171, 98, 1 )"
+				}
+			}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "1661-ccfc-9105-f995",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "b263-ac19-c9a5-71aa"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"backgroundColor": "rgba( 206, 171, 98, 1 )",
+				"titleColor": "rgba( 0, 0, 0, 0.6 )"
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "f344-d769-20b1-7457",
+			"props": {
+				"autoHeight": 20,
+				"children": [],
+				"html": "<font face=\"SFProText-Regular\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Select a purchase to rate</span></font><br>",
+				"name": "tvSelectPuch",
+				"parent": "b263-ac19-c9a5-71aa",
+				"text": "Select a purchase to rate\n",
+				"usePageVariable": true
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoHeight": 20,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 0
+				},
+				"font": {},
+				"height": null,
+				"html": "<font face=\"SFProText-Regular\"><span style=\"font-size: 16px; white-space: pre-wrap;\">Select a purchase to rate</span></font><br>",
+				"left": 0,
+				"marginTop": 59,
+				"text": "Select a purchase to rate\n",
+				"textColor": "rgba( 185, 162, 132, 1 )",
+				"top": 0,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-listView",
+			"id": "294f-90d8-30a5-4b2d",
+			"props": {
+				"children": [
+					"d0c3-cd78-b579-1ab2"
+				],
+				"itemCount": 5,
+				"name": "listView1",
+				"parent": "b263-ac19-c9a5-71aa",
+				"rowHeight": 94,
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"flexProps": {
+					"alignSelf": "CENTER"
+				},
+				"height": 490.42380196707586,
+				"ios": {
+					"shadowOpacity": 0
+				},
+				"itemCount": 5,
+				"rowHeight": 94,
+				"usePageVariable": true,
+				"width": 404.9178259713309
+			}
+		},
+		{
+			"className": ".sf-listViewItem",
+			"hiddenComponent": false,
+			"id": "d0c3-cd78-b579-1ab2",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "lstvSurveyHori",
+				"parent": "294f-90d8-30a5-4b2d"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "lstvSurveyHori",
+				"id": "f649-ad79-d570-c76e"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"borderColor": "rgba( 250, 247, 241, 1 )",
+				"borderWidth": 1,
+				"flex": {
+					"flexDirection": 2,
+					"flexWrap": 1,
+					"alignContent": 1,
+					"positionType": 0
+				},
+				"flexProps": {
+					"flexDirection": "ROW",
+					"flexWrap": "WRAP",
+					"alignContent": "FLEX_START",
+					"positionType": "RELATIVE",
+					"alignSelf": "CENTER"
+				},
+				"height": 134.23241206577845,
+				"left": 0,
+				"marginRight": 3,
+				"top": 0,
+				"width": 384.55175672258645
+			}
+		}
+	]
+}

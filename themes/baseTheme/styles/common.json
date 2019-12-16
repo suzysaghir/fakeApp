@@ -1,0 +1,11 @@
+{
+	".sf": {
+		"&-headerBar": {
+			"backgroundColor": "rgba( 206, 171, 98, 1 )",
+			"titleColor": "rgba( 255, 255, 255, 1 )"
+		},
+		"&-page": {
+			"backgroundColor": "rgba( 250, 247, 241, 1 )"
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "53e9-1e23-2d09-6ad4",
+			"initialized": true,
+			"props": {
+				"children": [
+					"9001-5fb8-168d-9844",
+					"1163-e951-9940-3bfd",
+					"7941-4419-5371-4266"
+				],
+				"name": "myOffers",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "9001-5fb8-168d-9844",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "53e9-1e23-2d09-6ad4"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "1163-e951-9940-3bfd",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "53e9-1e23-2d09-6ad4",
+				"title": "myOffers"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "myOffers"
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "7941-4419-5371-4266",
+			"props": {
+				"autoHeight": 20.75893027441842,
+				"children": [],
+				"html": "<font color=\"#00a1f1\" face=\"SFProText-Regular\" size=\"1\"><span style=\"white-space: pre-wrap; background-color: rgb(255, 255, 255);\">qqqqqwqwqwqwqwqw</span></font>",
+				"name": "textView1",
+				"parent": "53e9-1e23-2d09-6ad4",
+				"text": "qqqqqwqwqwqwqwqw"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoHeight": 20.75893027441842,
+				"html": "<font color=\"#00a1f1\" face=\"SFProText-Regular\" size=\"1\"><span style=\"white-space: pre-wrap; background-color: rgb(255, 255, 255);\">qqqqqwqwqwqwqwqw</span></font>",
+				"text": "qqqqqwqwqwqwqwqw"
+			}
+		}
+	]
+}

@@ -1,0 +1,359 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem",
+			"hiddenComponent": false,
+			"id": "855b-82c7-ff86-45a3",
+			"initialized": true,
+			"props": {
+				"children": [
+					"8425-8d54-1f22-3ebf"
+				],
+				"name": "lstvItSurvey",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"flexProps": {
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"alignSelf": "AUTO"
+				},
+				"height": 270.3636169433594,
+				"left": -1,
+				"top": 365.5428799715909,
+				"width": 413.14815945095484
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "8425-8d54-1f22-3ebf",
+			"props": {
+				"children": [
+					"9c31-b9fe-a097-7916",
+					"3b2e-29d2-e378-60de",
+					"94b4-d2fd-b8d0-0636"
+				],
+				"name": "fLoutContainer",
+				"parent": "855b-82c7-ff86-45a3",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"alignItems": "CENTER",
+					"justifyContent": "CENTER",
+					"alignContent": "STRETCH",
+					"alignSelf": "CENTER",
+					"flexDirection": "ROW"
+				},
+				"height": 94,
+				"marginLeft": 1,
+				"usePageVariable": true,
+				"width": 417.636358087713
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": false,
+			"id": "9c31-b9fe-a097-7916",
+			"props": {
+				"children": [
+					"ccf2-41c2-9962-7616"
+				],
+				"name": "fLoutImage",
+				"parent": "8425-8d54-1f22-3ebf",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"borderColor": "rgba( 250, 247, 241, 1 )",
+				"borderWidth": 2,
+				"flexProps": {
+					"justifyContent": "CENTER",
+					"alignItems": "STRETCH",
+					"alignContent": "CENTER"
+				},
+				"height": 60,
+				"marginLeft": 16,
+				"usePageVariable": true,
+				"width": 120
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "ccf2-41c2-9962-7616",
+			"props": {
+				"autoHeight": 66.66666666666667,
+				"children": [],
+				"name": "imgLogo",
+				"parent": "9c31-b9fe-a097-7916"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 66.66666666666667,
+				"height": null,
+				"image": "logo.png",
+				"imageFillType": "ASPECTFIT"
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "3b2e-29d2-e378-60de",
+			"props": {
+				"children": [
+					"ba0a-18af-8a24-c738",
+					"e1f6-32ba-0b03-b8b2",
+					"6c03-af32-deb6-e8e9"
+				],
+				"name": "fLoutText",
+				"parent": "8425-8d54-1f22-3ebf",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"borderColor": "rgba( 138, 30, 30, 1 )",
+				"flexProps": {
+					"alignItems": "CENTER",
+					"justifyContent": "FLEX_START",
+					"alignContent": "CENTER",
+					"flexDirection": "ROW",
+					"flexWrap": "NOWRAP",
+					"positionType": "RELATIVE",
+					"alignSelf": "AUTO"
+				},
+				"height": 98.18181818181817,
+				"marginLeft": 13,
+				"marginTop": null,
+				"top": 16,
+				"usePageVariable": true,
+				"width": 120
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "ba0a-18af-8a24-c738",
+			"props": {
+				"autoHeight": 18.9236119389534,
+				"autoWidth": 88.36805820465088,
+				"children": [],
+				"html": "<span style=\"color: rgb(50, 50, 50); font-family: SFProText-Regular; text-align: right; white-space: pre-wrap;\">Marina Mall</span><br>",
+				"name": "tvName",
+				"parent": "3b2e-29d2-e378-60de",
+				"text": "Marina Mall\n"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoHeight": 18.9236119389534,
+				"autoWidth": 88.36805820465088,
+				"flexProps": {
+					"alignSelf": "FLEX_START",
+					"positionType": "ABSOLUTE"
+				},
+				"height": null,
+				"html": "<span style=\"color: rgb(50, 50, 50); font-family: SFProText-Regular; text-align: right; white-space: pre-wrap;\">Marina Mall</span><br>",
+				"text": "Marina Mall\n",
+				"width": 93.80050941749855
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"hiddenComponent": false,
+			"id": "e1f6-32ba-0b03-b8b2",
+			"props": {
+				"autoHeight": 18.9236119389534,
+				"autoWidth": 84.13628935813904,
+				"children": [],
+				"html": "<span style=\"color: rgb(185, 162, 132); font-family: SFProText-Regular; white-space: pre-wrap;\">12.06.2018</span><br>",
+				"name": "tvTime",
+				"parent": "3b2e-29d2-e378-60de",
+				"text": "12.06.2018\n"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoHeight": 18.9236119389534,
+				"autoWidth": 84.13628935813904,
+				"flexProps": {
+					"positionType": "ABSOLUTE",
+					"alignSelf": "FLEX_START"
+				},
+				"height": null,
+				"html": "<span style=\"color: rgb(185, 162, 132); font-family: SFProText-Regular; white-space: pre-wrap;\">12.06.2018</span><br>",
+				"left": -1.8518518518518516,
+				"text": "12.06.2018\n",
+				"top": 17.1481485720034,
+				"width": 160
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"hiddenComponent": false,
+			"id": "6c03-af32-deb6-e8e9",
+			"props": {
+				"autoHeight": 19.642857142857142,
+				"autoWidth": 115.71801049368722,
+				"children": [],
+				"html": "<span style=\"color: rgb(198, 187, 171); font-family: SFProText-Regular; white-space: pre-wrap;\">2 Draw Entries </span><br>",
+				"name": "tvEntries",
+				"parent": "3b2e-29d2-e378-60de",
+				"text": "2 Draw Entries \n"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoHeight": 19.642857142857142,
+				"autoWidth": 115.71801049368722,
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"alignSelf": "FLEX_START"
+				},
+				"font": {},
+				"height": null,
+				"html": "<span style=\"color: rgb(198, 187, 171); font-family: SFProText-Regular; white-space: pre-wrap;\">2 Draw Entries </span><br>",
+				"left": 1.8181818181818181,
+				"marginTop": 7,
+				"text": "2 Draw Entries \n",
+				"top": 46.636366410688915,
+				"width": 124.18181679465553
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": false,
+			"id": "94b4-d2fd-b8d0-0636",
+			"props": {
+				"children": [
+					"40b9-c0b7-adfe-7edc",
+					"5c4c-60b4-d0fe-6dee",
+					"1363-ea46-df30-22dc"
+				],
+				"name": "fLoutPrice",
+				"parent": "8425-8d54-1f22-3ebf",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"alignItems": "FLEX_END",
+					"alignContent": "FLEX_START",
+					"flexGrow": 1,
+					"alignSelf": "STRETCH",
+					"flexDirection": "COLUMN",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP"
+				},
+				"height": null,
+				"marginTop": 14,
+				"right": 12,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"hiddenComponent": false,
+			"id": "40b9-c0b7-adfe-7edc",
+			"props": {
+				"children": [],
+				"name": "imgStar",
+				"parent": "94b4-d2fd-b8d0-0636"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"height": 22,
+				"image": "star.png",
+				"imageFillType": "ASPECTFIT",
+				"right": 31,
+				"width": 23
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "5c4c-60b4-d0fe-6dee",
+			"props": {
+				"autoHeight": 20.75893027441842,
+				"autoWidth": 62.20858437674386,
+				"children": [],
+				"html": "<span style=\"color: rgb(185, 162, 132); white-space: pre-wrap; font-family: SFProText-Regular; font-size: 18px; background-color: transparent; text-decoration-color: rgb(0, 0, 0);\">125 KD</span><br>",
+				"name": "tvPrice",
+				"parent": "94b4-d2fd-b8d0-0636",
+				"text": "125 KD\n"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoHeight": 20.75893027441842,
+				"autoWidth": 62.20858437674386,
+				"flexProps": {
+					"alignSelf": "AUTO"
+				},
+				"font": {},
+				"height": null,
+				"html": "<span style=\"color: rgb(185, 162, 132); white-space: pre-wrap; font-family: SFProText-Regular; font-size: 18px; background-color: transparent; text-decoration-color: rgb(0, 0, 0);\">125 KD</span><br>",
+				"right": 25,
+				"text": "125 KD\n",
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "1363-ea46-df30-22dc",
+			"props": {
+				"autoHeight": 14.545454545454545,
+				"autoWidth": 9.09090909090909,
+				"children": [],
+				"name": "imgArrow",
+				"parent": "94b4-d2fd-b8d0-0636"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 14.545454545454545,
+				"autoWidth": 9.09090909090909,
+				"bottom": 14,
+				"flexProps": {},
+				"height": 36.36363636363636,
+				"image": "arrow.png",
+				"imageFillType": "ASPECTFIT",
+				"marginBottom": null,
+				"marginTop": 0,
+				"right": 12,
+				"width": 9
+			}
+		}
+	]
+}

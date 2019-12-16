@@ -1,0 +1,67 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "348e-397e-ac77-8608",
+			"initialized": true,
+			"props": {
+				"children": [
+					"fe14-385a-34ad-0f8d",
+					"8d63-2b58-4c5c-2791",
+					"a046-07d3-ac4a-b664"
+				],
+				"name": "alertView",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "fe14-385a-34ad-0f8d",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "348e-397e-ac77-8608"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "8d63-2b58-4c5c-2791",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "348e-397e-ac77-8608",
+				"title": "alertView"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "alertView"
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "a046-07d3-ac4a-b664",
+			"props": {
+				"autoHeight": 19.949495792388916,
+				"children": [],
+				"html": "<font face=\"SFProText-Regular\"><span style=\"white-space: pre-wrap; background-color: rgb(255, 255, 255);\">this button will show an alertView</span></font>",
+				"name": "textView1",
+				"parent": "348e-397e-ac77-8608",
+				"text": "this button will show an alertView"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoHeight": 19.949495792388916,
+				"html": "<font face=\"SFProText-Regular\"><span style=\"white-space: pre-wrap; background-color: rgb(255, 255, 255);\">this button will show an alertView</span></font>",
+				"text": "this button will show an alertView"
+			}
+		}
+	]
+}

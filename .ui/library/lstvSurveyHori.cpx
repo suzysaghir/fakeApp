@@ -1,0 +1,423 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem",
+			"id": "f649-ad79-d570-c76e",
+			"initialized": true,
+			"props": {
+				"children": [
+					"ba29-66a4-d030-81fe"
+				],
+				"name": "lstvSurveyHori",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"borderColor": "rgba( 250, 247, 241, 1 )",
+				"borderWidth": 1,
+				"flexProps": {
+					"flexDirection": "ROW",
+					"flexWrap": "WRAP",
+					"alignContent": "CENTER",
+					"flexGrow": 4,
+					"alignSelf": "CENTER",
+					"positionType": "RELATIVE"
+				},
+				"height": 121.77382759425952,
+				"left": -13.058206309442935,
+				"top": 139.1133958014889,
+				"width": 464.3772733384285
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "ba29-66a4-d030-81fe",
+			"props": {
+				"children": [
+					"78d1-ebb8-a7e0-8f46",
+					"7625-703c-0cef-e7d2"
+				],
+				"name": "flxLoutContainer",
+				"parent": "f649-ad79-d570-c76e",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"alignItems": "CENTER",
+					"justifyContent": "FLEX_START",
+					"flexDirection": "ROW",
+					"alignSelf": "CENTER",
+					"positionType": "ABSOLUTE",
+					"flexGrow": 9
+				},
+				"height": 110.0196497780936,
+				"marginLeft": 1,
+				"usePageVariable": true,
+				"width": 414.7415706089564
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": false,
+			"id": "78d1-ebb8-a7e0-8f46",
+			"props": {
+				"children": [
+					"c452-35e7-49bb-3a84"
+				],
+				"name": "flxLoutImage",
+				"parent": "ba29-66a4-d030-81fe",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"borderColor": "rgba( 250, 247, 241, 1 )",
+				"borderWidth": 2,
+				"flexProps": {
+					"alignSelf": "CENTER",
+					"justifyContent": "CENTER",
+					"alignContent": "CENTER",
+					"alignItems": "STRETCH"
+				},
+				"height": 60,
+				"marginLeft": 16,
+				"usePageVariable": true,
+				"width": 120
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "c452-35e7-49bb-3a84",
+			"props": {
+				"autoHeight": 66.66666666666666,
+				"children": [],
+				"name": "imgBrand",
+				"parent": "78d1-ebb8-a7e0-8f46",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 66.66666666666666,
+				"flexProps": {
+					"alignSelf": "CENTER"
+				},
+				"height": 49,
+				"imageFillType": "ASPECTFIT",
+				"usePageVariable": true,
+				"width": 100
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "7625-703c-0cef-e7d2",
+			"props": {
+				"children": [
+					"3f68-88ce-e5aa-0745",
+					"5a37-c8ab-ef73-d3b5",
+					"e113-7e91-6da3-92c5"
+				],
+				"name": "flxLoutTest",
+				"parent": "ba29-66a4-d030-81fe",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"borderColor": "rgba( 189, 16, 224, 1 )",
+				"flexProps": {
+					"flexDirection": "COLUMN",
+					"flexWrap": "NOWRAP"
+				},
+				"height": 96.64589336940219,
+				"marginBottom": null,
+				"marginTop": null,
+				"usePageVariable": true,
+				"width": 265.14549255371094
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "3f68-88ce-e5aa-0745",
+			"props": {
+				"children": [
+					"6fbb-e51f-371d-2e77",
+					"c49b-d58f-ec3b-fb71"
+				],
+				"name": "flxLoutNameStar",
+				"parent": "7625-703c-0cef-e7d2",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"alignSelf": "FLEX_START",
+					"flexDirection": "ROW",
+					"justifyContent": "SPACE_BETWEEN"
+				},
+				"height": 22,
+				"marginBottom": null,
+				"usePageVariable": true,
+				"width": 250
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "6fbb-e51f-371d-2e77",
+			"props": {
+				"autoWidth": 88.72739215229834,
+				"children": [],
+				"html": "<span style=\"color: rgb(50, 50, 50); font-family: SFProText-Regular; text-align: right; white-space: pre-wrap;\">Marina Mall</span><br>",
+				"name": "tvName",
+				"parent": "3f68-88ce-e5aa-0745",
+				"text": "Marina Mall\n",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoWidth": 88.72739215229834,
+				"height": null,
+				"html": "<span style=\"color: rgb(50, 50, 50); font-family: SFProText-Regular; text-align: right; white-space: pre-wrap;\">Marina Mall</span><br>",
+				"text": "Marina Mall\n",
+				"textColor": "rgba( 50, 50, 50, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "c49b-d58f-ec3b-fb71",
+			"props": {
+				"autoHeight": 22.22222222222222,
+				"autoWidth": 24.074074074074073,
+				"children": [],
+				"name": "imgStar",
+				"parent": "3f68-88ce-e5aa-0745"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 22.22222222222222,
+				"autoWidth": 24.074074074074073,
+				"flexProps": {
+					"alignSelf": "CENTER"
+				},
+				"height": 22,
+				"image": "star.png",
+				"marginTop": null,
+				"width": 23
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "5a37-c8ab-ef73-d3b5",
+			"props": {
+				"children": [
+					"208d-9aa3-20b2-9739",
+					"b7c7-de37-b836-4dac"
+				],
+				"name": "flxLoutTimePrice",
+				"parent": "7625-703c-0cef-e7d2",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"borderColor": "rgba( 209, 10, 10, 1 )",
+				"flexProps": {
+					"flexDirection": "ROW",
+					"justifyContent": "SPACE_BETWEEN"
+				},
+				"height": 48.21428571428571,
+				"marginBottom": null,
+				"marginTop": null,
+				"usePageVariable": true,
+				"width": 249.07406398228235
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"hiddenComponent": false,
+			"id": "208d-9aa3-20b2-9739",
+			"props": {
+				"autoWidth": 84.932176456895,
+				"children": [],
+				"html": "<span style=\"color: rgb(185, 162, 132); font-family: SFProText-Regular; white-space: pre-wrap;\">12.06.2018</span><br>",
+				"name": "tvTime",
+				"parent": "5a37-c8ab-ef73-d3b5",
+				"text": "12.06.2018\n",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoWidth": 84.932176456895,
+				"flexProps": {},
+				"height": null,
+				"html": "<span style=\"color: rgb(185, 162, 132); font-family: SFProText-Regular; white-space: pre-wrap;\">12.06.2018</span><br>",
+				"marginTop": -6,
+				"text": "12.06.2018\n",
+				"textColor": "rgba( 185, 162, 132, 1 )",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": false,
+			"id": "b7c7-de37-b836-4dac",
+			"props": {
+				"children": [
+					"351f-b99c-9a70-087a",
+					"3e83-0076-5f58-3bea"
+				],
+				"name": "flxLoutPrice",
+				"parent": "5a37-c8ab-ef73-d3b5",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"borderColor": "rgba( 80, 227, 194, 1 )",
+				"flexProps": {
+					"flexDirection": "ROW",
+					"justifyContent": "FLEX_END"
+				},
+				"height": 31.25,
+				"marginTop": 8,
+				"usePageVariable": true,
+				"width": 81.24990463256836
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "351f-b99c-9a70-087a",
+			"props": {
+				"autoHeight": 20.18518606821696,
+				"autoWidth": 62.77777989705404,
+				"children": [],
+				"html": "<span style=\"font-family: SFProText-Regular; font-size: 18px; white-space: pre-wrap; color: rgb(206, 171, 96);\">125 KD</span><br>",
+				"name": "tvPrice",
+				"parent": "b7c7-de37-b836-4dac",
+				"text": "125 KD\n",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoHeight": 20.18518606821696,
+				"autoWidth": 62.77777989705404,
+				"flexProps": {
+					"alignSelf": "FLEX_START"
+				},
+				"height": null,
+				"html": "<span style=\"font-family: SFProText-Regular; font-size: 18px; white-space: pre-wrap; color: rgb(206, 171, 96);\">125 KD</span><br>",
+				"marginTop": null,
+				"text": "125 KD\n",
+				"textColor": "rgba( 206, 171, 98, 1 )",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "3e83-0076-5f58-3bea",
+			"props": {
+				"children": [],
+				"name": "imgArrow",
+				"parent": "b7c7-de37-b836-4dac"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"alignSelf": "AUTO"
+				},
+				"height": 14,
+				"image": "arrow.png",
+				"imageFillType": "ASPECTFIT",
+				"marginLeft": 3,
+				"marginTop": 3,
+				"width": 9
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "e113-7e91-6da3-92c5",
+			"props": {
+				"children": [
+					"651b-107c-6370-2b5b"
+				],
+				"name": "flxLoutEntries",
+				"parent": "7625-703c-0cef-e7d2",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"alignSelf": "STRETCH"
+				},
+				"height": 200,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "651b-107c-6370-2b5b",
+			"props": {
+				"autoHeight": 18.888890402657648,
+				"children": [],
+				"html": "<span style=\"color: rgb(198, 187, 171); font-family: SFProText-Regular; white-space: pre-wrap;\">2 Draw Entries </span><br>",
+				"name": "tvEntries",
+				"parent": "e113-7e91-6da3-92c5",
+				"text": "2 Draw Entries \n",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"autoHeight": 18.888890402657648,
+				"height": null,
+				"html": "<span style=\"color: rgb(198, 187, 171); font-family: SFProText-Regular; white-space: pre-wrap;\">2 Draw Entries </span><br>",
+				"text": "2 Draw Entries \n",
+				"textColor": "rgba( 198, 187, 171, 1 )",
+				"usePageVariable": true
+			}
+		}
+	]
+}

@@ -1,0 +1,109 @@
+const FlexLayout = require("sf-core/ui/flexlayout");
+const Image = require("sf-core/ui/image");
+const ImageView = require("sf-core/ui/imageview");
+const LayoutManager = require("sf-core/ui/layoutmanager");
+const GridView = require("sf-core/ui/gridview");
+const GridViewItem = require("sf-core/ui/gridviewitem");
+const Label = require("sf-core/ui/label");
+const Color = require("sf-core/ui/color");
+const TextAlignment = require("sf-core/ui/textalignment");
+const TextView = require("sf-core/ui/textview");
+const Screen = require("sf-core/device/screen");
+const extend = require('js-base/core/extend');
+const MyOffersDesign = require('ui/ui_myOffers');
+
+
+const MyOffers = extend(MyOffersDesign)(
+	// Constructor
+	function(_super) {
+		_super(this);
+		this.onShow = onShow.bind(this, this.onShow.bind(this));
+		this.onLoad = onLoad.bind(this, this.onLoad.bind(this));
+		
+        var layoutManager = new LayoutManager({
+            spanCount: 2, //columns
+            flexGrow: 1,
+            scrollDirection: LayoutManager.ScrollDirection.VERTICAL,
+            onItemLength: function() {
+                return Screen.width / 3;
+            },
+            onFullSpan: function(type) {
+                if (type == 1) {
+                    return 200;
+                }
+                else if (type == 2) {
+                    return 50;
+                }
+                return undefined;
+            }
+        });
+
+			var myDataSet = generateDataset();
+			console.log("my dataset: ", myDataSet);
+			var gridView = new GridView({
+                layoutManager: layoutManager,
+                refreshEnabled: true,
+                // flexGrow: 0,
+                // flexBasis:-2,
+                backgroundColor: Color.TRANSPARENT,
+                // backgroundColor: Color.BLACK,
+                // positionType:FlexLayout.PositionType.ABSOLUTE,
+                itemCount: myDataSet.length,
+                scrollBarEnabled: false,
+                onItemCreate: function() {
+                    var gridViewViewItem = new GridViewItem();
+                    var myImageView = new ImageView({
+                        image: "images://logo.png",
+                        flexGrow: 1,
+                    });
+                    
+                    gridViewViewItem.addChild(myImageView);
+                    gridViewViewItem.image = myImageView;
+                    return gridViewViewItem;
+                },
+                onItemBind: function(gridViewItem, index) {
+                    var img = myDataSet[index].image;
+                    gridViewItem.image.image = img;
+                },
+                onItemSelected: function(gridViewItem, index) {
+                    console.log(`Item title : ${gridViewItem.myLabel.text}`);
+                },
+                onPullRefresh: function() {
+                    console.log("onPullRefresh");
+                },
+                onScroll: function() {
+                    console.log("onScroll");
+                }
+
+            });
+            this.layout.addChild(gridView);
+	
+// try to use bind data !!.
+		function generateDataset() {
+	    var dataset = [];
+	    for (let i = 0; i < IMAGE.length; ++i) {
+	        dataset.push({
+	           image: IMAGE[i],
+	        });
+	    }
+	    return dataset;
+		}
+	});
+		const IMAGE = [
+	    "images://durum.png", "images://news_icon.png", "images://logo.png", "images://logo11.png", "images://pasta.png",
+	    "images://logo.png", "images://logo11.png", "images://macd.png", "images://more.png", "images://news.png",
+	    "images://macd.png", "images://star.png", "images://home_icon.png"
+	];
+
+
+function onShow(superOnShow) {
+	superOnShow();
+}
+
+function onLoad(superOnLoad) {
+	superOnLoad();
+}
+
+module.exports = MyOffers;
+
+
